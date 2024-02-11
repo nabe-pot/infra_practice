@@ -1,24 +1,21 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>画像を表示する</title>
-</head>
-<body>
-	<h1>EC2の静的ファイル配信システムをS3に移行する</h1>
+  <head>
+    <title>画像を表示する</title>
+  </head>
+  <body>
+    <h1>EC2の静的ファイル配信システムをS3に移行する</h1>
     <div id="box">
-        <h2>画像を表示する</h2>
-        <img src="images/be_roadmap.jpeg">
+      <h2>画像を表示する</h2>
     </div>
     <script>
-        img1 = document.createElement("img");
-        img1.src = "images/be_roadmap.jpeg";
-        // img1.width = 50;
-        // img1.height = 50;
-        img1.setAttribute("width", "15%");
-        img1.setAttribute("height", "40%");
-        
-        const box = document.getElementById('box');
-        box.appendChild(img1);
+      img1 = document.createElement("img");
+      img1.src = "images/be_roadmap.jpeg";
+      // img1.width = 50;
+      // img1.height = 50;
+
+      const box = document.getElementById("box");
+      box.appendChild(img1);
     </script>
-</body>
+  </body>
 </html>
