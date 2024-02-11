@@ -5,17 +5,16 @@
   </head>
   <body>
     <h1>EC2の静的ファイル配信システムをS3に移行する</h1>
-    <div id="box">
-      <h2>画像を表示する</h2>
-    </div>
+    <div id="box"></div>
     <script>
-      img1 = document.createElement("img");
-      img1.src = "images/be_roadmap.jpeg";
+      const box = document.getElementById("box");
       // img1.width = 50;
       // img1.height = 50;
-
-      const box = document.getElementById("box");
-      box.appendChild(img1);
+      for (let index = 0; index < 50; index++) {
+        img1 = document.createElement("img");
+        img1.src = "images/leaf.svg";
+        box.appendChild(img1);
+      }
     </script>
   </body>
 </html>
