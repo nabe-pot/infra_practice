@@ -1,10 +1,4 @@
-# infra_practice
-
-## Terraform のプロジェクトを参照する
-
-```
-cd image_delivery_system
-```
+# ft-terraform
 
 ## 初期化
 
